@@ -19,6 +19,6 @@
 
 ## Features
 > - [X] Lista
-> - [ ] Fila
+> - [X] Fila
 > - [ ] Pilhas
 > - [ ] Árvore
