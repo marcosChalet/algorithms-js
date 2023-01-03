@@ -20,5 +20,5 @@
 ## Features
 > - [X] Lista
 > - [X] Fila
-> - [ ] Pilhas
+> - [X] Pilha
 > - [ ] Árvore
