@@ -102,34 +102,34 @@ function LinkedQueue() {
 }
 
 // criando fila
-const myList = LinkedQueue()
+const myQueue = LinkedQueue()
 
-// adicionando os dados na lista
+// adicionando os dados na fila
 dadosAlnos.map((aluno) => {
-  myList.add(aluno)
+  myQueue.add(aluno)
 })
 
 // lista completa
-myList.mostrar()
+myQueue.mostrar()
 
 
-myList.remover()
-myList.remover()
+myQueue.remover()
+myQueue.remover()
 // restando 3 alunos
-myList.mostrar()
+myQueue.mostrar()
 
 
-myList.remover()
+myQueue.remover()
 // restando 2 alunos
-myList.mostrar()
+myQueue.mostrar()
 
 
-myList.remover()
+myQueue.remover()
 // restando só um aluno
-myList.mostrar()
+myQueue.mostrar()
 
 
-myList.remover()
+myQueue.remover()
 // fila vazia
-myList.mostrar()
+myQueue.mostrar()
 
