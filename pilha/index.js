@@ -1,4 +1,4 @@
-const dadosAlnos = [
+const dadosAlunos = [
   {
     nome: "Marcos",
     matricula: 22134,
@@ -82,7 +82,7 @@ function Stack() {
       console.table(dados)
 
     } else {
-      console.log('Lista vazia')
+      console.log('Pilha vazia')
     }
   }
 
@@ -90,7 +90,7 @@ function Stack() {
     if ( topo ) { // se entrar a pilha não é vazia!
       topo = topo.next
     } else {
-      console.log('Lista vazia')
+      console.log('Pilha vazia')
     }
   }
 
@@ -106,11 +106,11 @@ function Stack() {
 const myStack = Stack()
 
 // adicionando os dados na pilha
-dadosAlnos.map((aluno) => {
+dadosAlunos.map((aluno) => {
   myStack.add(aluno)
 })
 
-// lista completa
+// pilha completa
 myStack.mostrar()
 
 
@@ -131,6 +131,6 @@ myStack.mostrar()
 
 
 myStack.remover()
-// fila vazia
+// pilha vazia
 myStack.mostrar()
 

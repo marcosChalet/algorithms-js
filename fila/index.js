@@ -1,4 +1,4 @@
-const dadosAlnos = [
+const dadosAlunos = [
   {
     nome: "Marcos",
     matricula: 22134,
@@ -81,7 +81,7 @@ function LinkedQueue() {
       console.table(dados)
 
     } else {
-      console.log('Lista vazia')
+      console.log('Fila vazia')
     }
   }
 
@@ -89,7 +89,7 @@ function LinkedQueue() {
     if (head) { // se entrar a fila não é vazia!
       head = head.next
     } else {
-      console.log('Lista vazia')
+      console.log('Fila vazia')
     }
   }
 
@@ -105,11 +105,11 @@ function LinkedQueue() {
 const myQueue = LinkedQueue()
 
 // adicionando os dados na fila
-dadosAlnos.map((aluno) => {
+dadosAlunos.map((aluno) => {
   myQueue.add(aluno)
 })
 
-// lista completa
+// fila completa
 myQueue.mostrar()
 
 

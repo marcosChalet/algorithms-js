@@ -1,4 +1,4 @@
-const dadosAlnos = [
+const dadosAlunos = [
   {
     nome: "Marcos",
     matricula: 22134,
@@ -181,7 +181,7 @@ function LinkedList() {
 const myList = LinkedList()
 
 // adicionando os dados na lista
-dadosAlnos.map((aluno) => {
+dadosAlunos.map((aluno) => {
   myList.addOrdenado(aluno)
 })
 
