@@ -21,4 +21,4 @@
 > - [X] Lista
 > - [X] Fila
 > - [X] Pilha
-> - [ ] Árvore
+> - [X] Árvore
