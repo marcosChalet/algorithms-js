@@ -10,7 +10,7 @@
 > :cop: ***Instale o Node.js em seu sistema operacional*** :cop:
 > ```sh
 > git clone https://github.com/marcosChalet/algorithms-js.git
-> cd aed-js
+> cd algorithms-js
 > cd PATH-ALGORITMO   // Ex: cd lista
 > node index.js
 > ```
