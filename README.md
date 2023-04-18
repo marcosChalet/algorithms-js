@@ -23,5 +23,5 @@
 > - [X] Pilha
 > - [X] Árvore Binária
 > - [ ] Heap
-> - [ ] DFS
+> - [X] DFS
 > - [ ] BFS
