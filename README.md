@@ -25,3 +25,6 @@
 > - [ ] Heap
 > - [X] DFS
 > - [ ] BFS
+> - [ ] Dijkstra
+> - [ ] Kruskal
+> - [ ] Bellman-Ford
